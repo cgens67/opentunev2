@@ -59,7 +59,7 @@ data class Contributor(
 )
 
 val contributors = listOf(
-    Contributor("亗 Ganvo", "Lead Developer", "https://avatars.githubusercontent.com/u/87346871?v=4", "https://github.com/Ganvo"),
+    Contributor("亗 Ganvo", "Lead Developer", "https://avatars.githubusercontent.com/u/87346871?v=4", "https://github.com/cgens67"),
     Contributor("\uD81A\uDD10 Fabito02", "Traductor (PR_BR) & Icon designer", "https://avatars.githubusercontent.com/u/138934847?v=4", "https://github.com/Fabito02/"),
     Contributor("ϟ Xamax-code", "Code Refactor", "https://avatars.githubusercontent.com/u/205341163?v=4", "https://github.com/xamax-code"),
     Contributor("ϟ Derpachi", "Traductor (ru_RU)", "https://avatars.githubusercontent.com/u/106829560?v=4", "https://github.com/Derpachi"),
@@ -210,7 +210,7 @@ private fun SocialLinksCard(uriHandler: UriHandler) {
             horizontalArrangement = Arrangement.SpaceEvenly,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            SocialIcon(R.drawable.github, "https://github.com/Ganvo/Ganvo", uriHandler)
+            SocialIcon(R.drawable.github, "https://github.com/cgens67/ganvomusic", uriHandler)
             SocialIcon(R.drawable.paypal, "https://www.paypal.me/Ganvo", uriHandler)
             SocialIcon(R.drawable.google, "https://g.dev/Ganvo", uriHandler)
             SocialIcon(R.drawable.resource_public, "https://Ganvo.netlify.app/", uriHandler)
