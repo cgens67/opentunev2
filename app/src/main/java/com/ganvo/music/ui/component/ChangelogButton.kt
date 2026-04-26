@@ -165,7 +165,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
     var selectedTab by remember { mutableStateOf(ChangelogTab.RELEASES) }
 
     LaunchedEffect(Unit) {
-        viewModel.loadChangelog("Ganvo", "Ganvo")
+        viewModel.loadChangelog("cgens67", "ganvomusic")
     }
 
     Column(
@@ -194,7 +194,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
                     isLoading = uiState.isLoadingReleases,
                     error = uiState.releasesError,
                     lastUpdated = uiState.lastUpdated,
-                    onRetry = { viewModel.loadChangelog("Ganvo", "Ganvo") }
+                    onRetry = { viewModel.loadChangelog("cgens67", "ganvomusic") }
                 )
             }
             ChangelogTab.COMMITS -> {
@@ -203,7 +203,7 @@ fun ChangelogScreen(viewModel: ChangelogViewModel = viewModel()) {
                     isLoading = uiState.isLoadingCommits,
                     error = uiState.commitsError,
                     lastUpdated = uiState.lastUpdated,
-                    onRetry = { viewModel.loadChangelog("Ganvo", "Ganvo") }
+                    onRetry = { viewModel.loadChangelog("cgens67", "ganvomusic") }
                 )
             }
         }
