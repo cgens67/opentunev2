@@ -21,7 +21,7 @@ class DiscordRPC(
             smallText = song.artists.firstOrNull()?.name,
             buttons = listOf(
                 "Listen on YouTube Music" to "https://music.youtube.com/watch?v=${song.song.id}",
-                "Visit Ganvo" to "https://github.com/Ganvo/Ganvo"
+                "Visit Ganvo" to "https://github.com/cgens67/ganvomusic"
             ),
             type = Type.LISTENING,
             since = System.currentTimeMillis(),
